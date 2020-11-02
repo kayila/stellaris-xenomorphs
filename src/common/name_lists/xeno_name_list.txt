@@ -1,4 +1,4 @@
-﻿XENO1 = {
+XENO1 = {
 	### SHIPS
 
 	ship_names = {
