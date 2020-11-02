@@ -1,0 +1,246 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	
+	# Xeno	
+	xenomorph_praetorian	= {
+		entity = "xeno_praetorian_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_praetorian_portrait.dds"
+		}
+	}
+	# Drones
+	xenomorph_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_portrait.dds"
+		}
+	}
+	xenomorph_blue_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_blue_portrait.dds"
+		}
+	}
+	xenomorph_cyan_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_cyan_portrait.dds"
+		}
+	}
+	xenomorph_pur_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_pur_portrait.dds"
+		}
+	}
+	xenomorph_red_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_red_portrait.dds"
+		}
+	}
+	xenomorph_yellow_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_yellow_portrait.dds"
+		}
+	}
+	xenomorph_green_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_green_portrait.dds"
+		}
+	}
+	xenomorph_deacon= {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_white_portrait.dds"
+		}
+	}
+	xenomorph_gold_drone = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_gold_portrait.dds"
+		}
+	}
+	# Extras
+	xenomorph_spitter = {
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xeno/xenomorph_spitter_portrait.dds"
+			"gfx/models/portraits/xeno/xenomorph_spitter_2_portrait.dds"
+			"gfx/models/portraits/xeno/xenomorph_spitter_3_portrait.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	xenomorph = {
+		default = xenomorph_drone		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					xenomorph_drone 
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					xenomorph_drone 
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					NOT = { leader_class = scientist }
+					NOT = { leader_class = general }
+					NOT = { leader_class = admiral }
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOT = { leader_class = scientist }
+					NOT = { leader_class = general }
+					NOT = { leader_class = admiral }
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					xenomorph_praetorian
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+	}
+}

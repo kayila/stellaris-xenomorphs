@@ -1,0 +1,44 @@
+XENO = {
+	xenomorph = {
+		name = "Xeno-314"
+		plural = "Xeno-314"
+		home_planet = "314 Primus"
+		home_system = "LV-314"
+		name_list = "XENO1"
+	}
+	xenomorph = {
+		name = "Xeno-415"
+		plural = "Xeno-415"
+		home_planet = "415 Primus"
+		home_system = "LV-415"
+		name_list = "XENO1"
+	}
+	xenomorph = {
+		name = "Xeno-720"
+		plural = "Xeno-720"
+		home_planet = "720 Primus"
+		home_system = "LV-720"
+		name_list = "XENO1"
+	}
+	xenomorph = {
+		name = Wrlmncth
+		plural = Wrlmncths
+		home_planet = "Xnth Dimension"
+		home_system = "Q'wrl'nt"
+		name_list = "XENO1"
+	}
+	xenomorph = {
+		name = Wrlmncth
+		plural = Wrlmncths
+		home_planet = "Xnth Dimension"
+		home_system = "Q'wrl'nt"
+		name_list = "XENO1"
+	}
+	xenomorph = {
+		name = Wrlmncth
+		plural = Wrlmncths
+		home_planet = "Xnth Dimension"
+		home_system = "Q'wrl'nt"
+		name_list = "XENO1"
+	}
+}

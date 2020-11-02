@@ -1,0 +1,32 @@
+xenomorph_hive = { 
+       type = xenomorph
+       aggressiveness = 2.0
+       trade_willingness = -10.0
+       bravery = 1.0
+       military_spending = 1.2
+       colony_spending = 1.2	
+       alliance_acceptance = -1000
+       federation_acceptance = -1000
+       threat_modifier = 0
+       friction_modifier = 10
+       behaviour = {
+               conqueror = yes
+               subjugator = no
+               liberator = no
+               opportunist = yes
+               slaver = no
+               uplifter = no
+               purger = yes
+               dominator = yes
+               infiltrator = no
+               robot_exploiter = yes
+               robot_liberator = no
+               migrator = no
+        }
+        allow = {
+               has_country_flag = is_xenomorph
+        }
+        weight_modifier = {
+               weight = 1000			
+        }
+}

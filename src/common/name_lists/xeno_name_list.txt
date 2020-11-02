@@ -1,0 +1,214 @@
+﻿XENO1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"Kthug'mu" "Gaiolk'vhoxr" "Bhoggi" "Haxa" "Vhaiold'gnuxr" "Inuigha" "Yamhorv'gnos" "Unudhexz" "Aiudethrhih" "Yokhuga" "D'orulbh" "Xutlolbh" "Gog'ender" "Hedhel" "Ghrothl'endi" "Aigraothrh'mo" "Iucnuilen" "Uvitluss" "Igritloss" "Iauzhibhe" Yehm-Guulyeg Yehm-Frahan Yehm-Qiigrud Yehm-Priidgynn Yehm-Taagrid Yehm-Neerolg Yehm-Tuurazh Yehm-Phuetl Yehm-Houtrend Yehm-Yglaagd Yehm-Ruuvgru Yehm-Tiiqup Yehm-Daaremt Yehm-Traguud Yehm-Wootunn Yehm-Raaslurg Yehm-Rehm Yehm-Nargudd Yehm-Fiilyub Yehm-Raasud Yehm-Plourh Yehm-Fleeyup Yehm-Putrieeg Yehm-Shaaluv Yehm-Khaarnob Yehm-Truukend Yehm-Gfaleehn Yehm-Yduumen Yehm-Muldaryyn Yehm-Trooghum Yehm-Beiiyud Yehm-Tiipagh Yehm-Sughraad Yehm-Filgfuul Yehm-Buydool Ythleem-Ju Vakeem-Ju Madeem-Ju Retheem-Ju Bolteem-Ju Valleem-Ju Buffeem-Ju Bammadeem-Ju Toscheem-Ju Vabreem-Ju Juleem-Ju Mikreem-Qa Kashmadeem-Qa Rashbadeem-Qa Condeem-Qa Indageem-Qa Keleem-Qa Viggadeem-Qa Othafeem-Qa Korbadeem-Qa Kanjareem-Qa Jockeem-Qa Sareem-Qa Vukreem-Qa Soltreem-Bu Gardeem-Bu Ythareem-Bu Nagreem-Bu Pethreem-Bu Vagreem-Bu Tyraneem-Bu Keldeem-Bu Salasheem-Bu Valdoreem-Bu Leganeem-Bu Lotheem-Bu Lasgareem-Bu Lyrrameen-Bu Libareem-Bu Boromeen-Ro Patharomeen-Ro Ondareem-Ro Ovgareem-Ro Jhalseem-Ro Berokeem-Ro Manthareem-Ro Mythoreem-Ro Murgareem-Ro Molgareem-Ro Mashgadeem-Ro Uldoreem-Ro Ugaratheem-Ro Utharabeem-Ro Undagreem-Ro Urasmadeem-Ro Uplageem-Ta Hestareem-Ta Hothoreem-Ta Hiniscoreem-Ta Haggrineem-Ta Hirameen-Ta Horbageem-Ta Sarrascameen-Ta Sindorneem-Ta Sukareem-Ta Solbareem-Ta Savironeem-Ni Argoreem-Ni Alduroneem-Ni Algordeem-Ni Abrikoneem-Ni Astorneem-Ni Irrigoneem-Ni Ivobradeem-Ni Indarageem-Ni Ivijhareem-Ni Endoreem-Ni Elgoreem-Ni Evakeem-Ni Eriotheem-Ni Karbadeem-Sa Matjoneem-Sa Vokroneem-Sa Sraknoreem-Sa Setarobeem-Sa Iblargobeem-Sa Purgabeem-Sa Ylgobeem-Sa Udnabeem-Sa Reskobeem-Sa Ivirbeem-Sa Bederbeem-Sa Uliasbeem-Sa Sotoribeem-Sa Kervebeem-Sa Reblabeem-Sa Rithlabeem-Sa Evadnobeem-Sa Cadimobeem-Sa Cufflabeem-Sa
+		}
+
+		corvette = {
+			"Combat Vessel"
+		}
+		
+		destroyer = {
+			"Combat Vessel"
+		}
+		
+		cruiser = {
+			"Combat Vessel"
+		}
+		
+		battleship = {
+			"Combat Vessel"
+		}
+
+		titan = {
+			"Combat Vessel"
+		}
+
+		colossus = {
+			"Primary Combat Vessel"
+		}
+
+		juggernaut = {
+			"Primary Combat Node"
+		}
+		
+		science = {
+			"Seeker Vessel"
+		}
+		
+		colonizer = {
+			"Nester"
+		}
+		
+		constructor = {
+			"Builder Vessel"
+		}
+	
+		transport = {
+			"Carrier Vessel"
+		}
+	
+		military_station_small = {
+			"Stationary Defensive"
+		}
+
+		ion_cannon = {
+			"Ion Defensive"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			"Type Alpha" "Type Beta" "Type Gamma" "Type Delta" "Type Epsilon" "Type Zeta" "Type Eta" "Type Theta" "Type Iota" "Type Kappa" "Type Lambda" "Type Mu" "Type Nu" "Type Xi" "Type Omicron" "Type Pi" "Type Rho" "Type Sigma" "Type Tau" "Type Upsilon" "Type Phi" "Type Chi" "Type Psi" "Type Omega"
+		}		
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Xenomorph Swarm" "Howling Swarm" "Ravenous Swarm" "Ravaging Swarm" "Devastating Swarm" "Gorging Swarm" "Rushing Swarm" "Stalking Swarm" "Charging Swarm" "Thundering Swarm" "Teeming Swarm" "Ceaseless Swarm" "Baleful Swarm" "Pestilent Swarm" "Merciless Swarm" "Pitiless Swarm" "Rancorous Swarm"
+		}
+		sequential_name = "%O% Xenomorph Swarm"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Defensive Brood"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Offensive Brood"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Brood"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Brood"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Mech Brood"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Brood"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Mind Brood"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Brood"
+		}
+		
+		xenomorph_brood = {
+			sequential_name = "%O% Xenomorph Brood"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Brood"
+		}
+		
+		xeno_hive_army = {
+			sequential_name = "%O% Xenomorph Brood"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Graathu'lreh Zeetrux'it Frrtrixicleh Warldytrach Zrutlzyx Clrrxiatch 
+				Eerythfilath Shyrmptixith Drylytyt Qurlypratyt Zserrtkreh Qurriptmik
+				Yyrlyqen Rfytlytreex Wrptalyt Glglrypmitat Wrrcl'rt Venrretrit LV-521
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			Chubretlet Eithu I'botsk Phathosi Rhu'yil Rteli'chuart Schuau Thaugusho Thothot Tuacryplat U'guakek Zokr Zothrileyt
+			Cner'zhorc Kthoughi Griged Vhathla Mhaiopes Ocnurr'ithur Ikhixhil Yonulku Iuxaiolpuh Iumheggubl Mh'uithlo Mlozid Ngaxusz Vughr Ghrouthlag 
+			Edoggu Exydrrexr Iuzarrolbh Iauthaacnis Akthabruh Xipa Niodrr'dri Ghrixl Dydhra D'oulalb Ivagn'kru Aiughrulthi Emhethr'rosz Yocxujhas
+			Ycthiondast Khozt'xa Daiognneth Shycnolbh Shydhux Zhogho Iacthigid Ivrobhaxr Iac'thivhon Engidh'mitl Actidrr'dritl Kthibhin Vhuiggu Kuggor
+			Kthaiozotl Truivh'zhal Iaxudhra Iauvrurr'mu Oz'aioth'rotl Aiuzhoul'dhred Ugrux'xess
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+			}
+			# Always combined with a second name
+			first_names_female = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+			Chubretlet Eithu I'botsk Phathosi Rhu'yil Rteli'chuart Schuau Thaugusho Thothot Tuacryplat U'guakek Zokr Zothrileyt
+			Cner'zhorc Kthoughi Griged Vhathla Mhaiopes Ocnurr'ithur Ikhixhil Yonulku Iuxaiolpuh Iumheggubl Mh'uithlo Mlozid Ngaxusz Vughr Ghrouthlag 
+			Edoggu Exydrrexr Iuzarrolbh Iauthaacnis Akthabruh Xipa Niodrr'dri Ghrixl Dydhra D'oulalb Ivagn'kru Aiughrulthi Emhethr'rosz Yocxujhas
+			Ycthiondast Khozt'xa Daiognneth Shycnolbh Shydhux Zhogho Iacthigid Ivrobhaxr Iac'thivhon Engidh'mitl Actidrr'dritl Kthibhin Vhuiggu Kuggor
+			Kthaiozotl Truivh'zhal Iaxudhra Iauvrurr'mu Oz'aioth'rotl Aiuzhoul'dhred Ugrux'xess
+			}
+			
+			regnal_first_names_male = {
+			}
+			
+			regnal_first_names_female = {
+			}
+			
+			regnal_second_names = {
+				}
+		}
+	}
+}

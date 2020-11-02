@@ -1,0 +1,116 @@
+
+namespace = primitive_xenomorph
+
+planet_event = {
+	id = primitive_xenomorph.1
+	title = "primitive_xenomorph.1.name"
+	desc = "primitive_xenomorph.1.desc"
+	picture = GFX_evt_landing_ship
+	location = FROM
+	show_sound = event_default
+
+	is_triggered_only = yes
+
+	immediate = {
+			create_species = {
+				class="XENO"
+				portrait="xenomorph_deacon"
+				name="Deacon Xenomorph"
+				plural="Deacon Xenomorphs"
+				adjective="Deacon Xenomorph"
+				name_list="XENO1"
+				traits = {
+					trait="trait_hive_mind"
+					trait="trait_xenomorph"
+					trait="trait_accidental_variation"
+					trait="trait_controllable_risk"
+				}
+				homeworld = FROM
+				sapient = no
+			}
+			while = {
+				count = 3
+					create_pop = { species = last_created }
+			}
+		}
+
+	option = {
+		name = primitive_xenomorph.1.a
+	}
+
+}
+
+planet_event = {
+	id = primitive_xenomorph.2
+	title = "primitive_xenomorph.2.name"
+	desc = "primitive_xenomorph.2.desc"
+	picture = GFX_evt_landing_ship
+	location = FROM
+	show_sound = event_default
+
+	is_triggered_only = yes
+
+	immediate = {
+			create_species = {
+				class="XENO"
+				portrait="xenomorph"
+				name="Xenomorph"
+				plural="Xenomorph"
+				adjective="Xenomorph"
+				name_list="XENO1"
+				traits = {
+					trait="trait_hive_mind"
+					trait="trait_xenomorph"
+					trait="trait_controllable_risk"
+				}
+				homeworld = this
+				sapient = no
+			}
+			while = {
+				count = 3
+					create_pop = { species = last_created }
+			}
+		}
+
+	option = {
+		name = primitive_xenomorph.2.a
+	}
+
+}
+
+planet_event = {
+	id = primitive_xenomorph.3
+	title = "primitive_xenomorph.3.name"
+	desc = "primitive_xenomorph.3.desc"
+	picture = GFX_evt_landing_ship
+	location = FROM
+	show_sound = event_default
+
+	is_triggered_only = yes
+
+	immediate = {
+			create_species = {
+				class="XENO"
+				portrait="xenomorph"
+				name="Xenomorph"
+				plural="Xenomorph"
+				adjective="Xenomorph"
+				name_list="XENO1"
+				traits = {
+					trait="trait_hive_mind"
+					trait="trait_xenomorph"
+				}
+				homeworld = this
+				sapient = no
+			}
+			while = {
+				count = 3
+					create_pop = { species = last_created }
+			}
+		}
+
+	option = {
+		name = primitive_xenomorph.3.a
+	}
+
+}

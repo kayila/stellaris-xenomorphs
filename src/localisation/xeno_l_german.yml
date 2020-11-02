@@ -1,0 +1,70 @@
+﻿l_german:
+ FLAG_CATEGORY_xeno:0 "Xenomorph"
+ XENO:0 "Xenomorph"
+ XENO_desc:0 "Xenomorph"
+ XENO_plural:0 "Xenomorph"
+ XENO_insult_01:0 "abomination"
+ XENO_insult_plural_01:0 "abominations"
+ XENO_compliment_01:0 "warrior"
+ XENO_compliment_plural_01:0 "warriors"
+ XENO_spawn:0 "ovomorph"
+ XENO_spawn_plural:0 "ovomorphs"
+ XENO_sound_01:0 "clicking"
+ XENO_sound_02:0 "rattling"
+ XENO_sound_03:0 "hissing"
+ XENO_sound_04:0 "howling"
+ XENO_sound_05:0 "screeching"
+ name_list_XENO1:0 "Xenomorph 1"
+ trait_xenomorph:0 "Xenomorph"
+ trait_xenomorph_desc:0 "The deadliest of all known alien species, these creatures need a host organism in order to reproduce."
+ EMPIRE_DESIGN_xenomorph1:0 "Xenomorph"
+ EMPIRE_DESIGN_xenomorph1_desc:0 "The Xenomorphs are vicious predatory creatures with no higher goals than the propagation of their species and the destruction of any life that could pose a threat to them. Like wasps or bees, Xenomorphs are eusocial, with a fertile Queen breeding a host of subordinate castes. The creatures are known for their potent acidic blood and their pharyngeal jaws, although their biological life cycle, in which their offspring are implanted inside living hosts before erupting violently from their chests, is in many ways their signature aspect."
+ START_SCREEN_XENOMORPH:0 "§T'Far away, hidden from the eyes of daylight, there are watchers in the skies.'\n - Euripides, The Bacchae (c. 406 BC)§!\n\nThe Xenomorphs are vicious predatory creatures with no higher goals than the propagation of their species and the destruction of any life that could pose a threat to them. Like wasps or bees, Xenomorphs are eusocial, with a fertile Queen breeding a host of subordinate castes. The creatures are known for their potent acidic blood and their pharyngeal jaws, although their biological life cycle, in which their offspring are implanted inside living hosts before erupting violently from their chests, is in many ways their signature aspect."
+ personality_xenomorph_hive:0 "Xenomorph"
+ personality_xenomorph_hive_desc:0 "Xenomorph Hive is a collective of terrifying predatory species. Diplomacy with them is impossible, they wish to exterminate all other life they perceive as danger to them."
+ xenomorph_brood:0 "Xenomorph Army"
+ xenomorph_brood_plural:0 "Xenomorph Armies"
+ xenomorph_brood_desc:0 "Ravenous hordes of horrors made up of little more than teeth, claws and an instinctive urge to kill."
+
+
+
+trait_genetically_manipulated:0 "Genetically Manipulated"
+trait_genetically_manipulated_desc:0 "This variation of xenomorph has been exposed to experimentations in laboratories."
+
+trait_accidental_variation:0 "Accidental Variation"
+trait_accidental_variation_desc:0 "This variation of xenomorph has adapted to a new environment and a new guest, acquiring new skills."
+
+trait_rebellious_xenomorphs:0 "Rebellious Xenomorphs"
+trait_rebellious_xenomorphs_desc:0 "This variation comes from a hive that fought against another hive of the same species."
+
+trait_controllable_risk:0 "Controllable Risk"
+trait_controllable_risk_desc:0 "These specimens are more docile than the rest of their class."
+
+
+
+origin_xeno_hive: "Xenomorph Hive World"
+origin_xeno_hive_desc: "The origin of this hive was centered on a prosperous advance without major interventions by other species on the planet."
+origin_tooltip_xeno_hive: "Homeworld is a §Y$pc_hive$§! and our species has the trait §Y$trait_xenomorph$§!."
+
+origin_xeno_rebels: "Xenomorph Rebellion"
+origin_xeno_rebels_desc: "This hive was born from a crisis where a divergent group of xenomorphs achieved supremacy over the original forms which also cost the life of the planet."
+origin_tooltip_xeno_rebels: "Homeworld is a §Y$pc_nuked$§! and our species has the trait §Y$trait_rebellious_xenomorphs$§!."
+
+origin_xeno_experiments: "Xeno - Old Research Facilities"
+origin_xeno_experiments_desc: "This hive was born at the hands of another species that genetically experimented with xenomorphs in order to dominate them and ended up succumbing to their own creation."
+origin_tooltip_xeno_experiments: "Homeworld is a §Y$pc_relic$§! and our species has the trait §Y$trait_genetically_manipulated$§!."
+
+origin_xeno_special_1: "Xeno - Encounter in Distant World"
+origin_xeno_special_1_desc: "This hive was born from an accidental encounter between several intelligent species and a genetic mix that completely changes the organization of the entire primitive hive"
+origin_tooltip_xeno_special_1: "Homeworld is a §Y$pc_savannah$§! and our species has the trait §Y$trait_accidental_variation$§!."
+
+origin_xeno_special_2: "Xenomorph Defective Hive"
+origin_xeno_special_2_desc: "This hive grew less aggressive and therefore less combat-ready but highly intelligent."
+origin_tooltip_xeno_special_2: "Our species has the trait §Y$trait_controllable_risk$§!."
+
+
+xeno_hive_army: "Hive Swarm"
+xeno_hive_army_plural: "Hive Swarms"
+xeno_hive_army_desc: "Ravenous hordes of horrors made up of little more than teeth, claws and an instinctive urge to kill."
+
+

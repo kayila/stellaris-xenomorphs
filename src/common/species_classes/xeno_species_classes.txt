@@ -1,0 +1,36 @@
+XENO = {
+	archetype = XENO
+	portrait_modding = yes
+#	possible = { authority = { OR = { value = auth_hive_mind } } }
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	# These should not be used for randomly generated species
+	portraits = {
+				"xenomorph"
+				"xenomorph_spitter"
+				"xenomorph_blue_drone"
+				"xenomorph_cyan_drone"
+				"xenomorph_pur_drone"
+				"xenomorph_red_drone"
+				"xenomorph_yellow_drone"
+				"xenomorph_green_drone"
+				"xenomorph_deacon"
+				"xenomorph_gold_drone"
+	}
+	non_randomized_portraits = {
+				"xenomorph"
+				"xenomorph_spitter"
+				"xenomorph_blue_drone"
+				"xenomorph_cyan_drone"
+				"xenomorph_pur_drone"
+				"xenomorph_red_drone"
+				"xenomorph_yellow_drone"
+				"xenomorph_green_drone"
+				"xenomorph_deacon"
+				"xenomorph_gold_drone"
+	}
+	graphical_culture = molluscoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	
+	trait = "trait_xenomorph"
+}
