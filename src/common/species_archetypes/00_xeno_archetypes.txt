@@ -4,17 +4,12 @@
 #EXAMPLE OF MODDED SPECIES ARCHETYPE
 #Will be able to use traits valid for BIOLOGICAL, ROBOT and BIOLOGICAL2
 #Has the exact same trait points as BIOLOGICAL
-#BIOLOGICAL2 = { 
+#BIOLOGICAL2 = {
 #	inherit_trait_points_from = BIOLOGICAL
-#	inherit_traits_from = { BIOLOGICAL ROBOT } 
+#	inherit_traits_from = { BIOLOGICAL ROBOT }
 #}
 
-@XENO_max_traits = 5
-@XENO_trait_points = 2
-
-
 XENO = {
-	species_trait_points = @XENO_trait_points
-	species_max_traits = @XENO_max_traits
-	inherit_traits_from = { BIOLOGICAL } 
+    inherit_trait_points_from = BIOLOGICAL
+    inherit_traits_from = { BIOLOGICAL }
 }
