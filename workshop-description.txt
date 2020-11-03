@@ -1,0 +1,30 @@
+Adds animated and playable custom species.
+No random generation.
+You can play with the Xenomorph Species even if you don't have the Hive Mind Authority (You can play without Utopia DLC).
+Updated so that the Xenomorphs are able to benefit from the trait point research and ascension perks.
+
+[h1]This mod contains:[/h1]
+-Almost 10 variations of xenomorphs.
+
+-Xenomorph themed flag icon.
+
+-Custom names for ships and planets for the species.
+
+-4 Prescripted Countries (Utopia DLC Required)
+
+-5 origins for your Xenomorphs (Utopia DLC Required - Select Hive Mind Authority First)
+
+-5 Rooms
+
+-Custom traits exclusive for Xenomorphs
+
+
+Compatibility:
+-This mod does not alter existing files.
+-Doesn't affect other mods.
+-Ironman yes, Achievements no.
+
+Disclaimer:
+-Permission granted by previous maintainer to re-upload and take over maintance.
+-Previously maintained by [url=https://steamcommunity.com/profiles/76561198447278897]The Holy Matriarch[/url].
+-Original creation by [url=https://steamcommunity.com/id/rocketkiwi]rocket2guns[/url].

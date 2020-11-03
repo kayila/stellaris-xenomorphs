@@ -1,10 +1,10 @@
-version="3.1.4"
+version="3.2.0"
 tags={
 	"Gameplay"
 	"Species"
 	"Graphics"
 	"Leaders"
 }
-name="Xenomorph Species Expanded - Animated Portraits"
-supported_version="2.7.2"
-remote_file_id="2102023901"
+name="Xenomorph Species"
+supported_version="2.8.*"
+remote_file_id="2275819376"
