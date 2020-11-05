@@ -1,164 +1,134 @@
 origin_xeno_hive = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
-	picture = GFX_evt_alien_planet
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
+    picture = GFX_evt_alien_planet
 
-	starting_colony = pc_hive
-	
-	potential = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-	}
+    starting_colony = pc_hive
 
-	possible = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-		
-	}
+    possible = {
+        authority = {
+            value = auth_hive_mind
+        }
+        ethics = { value = ethic_gestalt_consciousness }
+        species = { value = XENO }
 
-	traits = {
-		trait = trait_xenomorph 
-	}
-	random_weight = {
-		base = 0
-	}
+    }
 
-	description = "origin_tooltip_xeno_hive"
-	advanced_start = no
+    traits = {
+        trait = trait_xenomorph
+    }
+    random_weight = {
+        base = 0
+    }
+
+    description = "origin_tooltip_xeno_hive"
+    advanced_start = no
 }
 
 origin_xeno_rebels = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origin_xeno_rebels.dds"
-	picture = GFX_origin_fratricide
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_xeno_rebels.dds"
+    picture = GFX_origin_fratricide
 
-	starting_colony = pc_nuked
-	
-	potential = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-	}
+    starting_colony = pc_nuked
 
-	possible = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-		
-	}
+    possible = {
+        authority = {
+            value = auth_hive_mind
+        }
+        ethics = { value = ethic_gestalt_consciousness }
+        species = { value = XENO }
 
-	traits = {
-		trait = trait_rebellious_xenomorphs
-	}
-	
-	random_weight = {
-		base = 0
-	}
+    }
 
-	description = "origin_tooltip_xeno_rebels"
-	advanced_start = no
+    traits = {
+        trait = trait_rebellious_xenomorphs
+    }
+
+    random_weight = {
+        base = 0
+    }
+
+    description = "origin_tooltip_xeno_rebels"
+    advanced_start = no
 }
 
 origin_xeno_special_2 = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
-	picture = GFX_origin_overtuned
-	
-	potential = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-	}
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
+    picture = GFX_origin_overtuned
 
-	possible = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-		
-	}
+    possible = {
+        authority = {
+            value = auth_hive_mind
+        }
+        ethics = { value = ethic_gestalt_consciousness }
+        species = { value = XENO }
 
-	traits = {
-		trait = trait_controllable_risk
-	}
-	random_weight = {
-		base = 0
-	}
+    }
 
-	description = "origin_tooltip_xeno_special_2"
-	advanced_start = no
+    traits = {
+        trait = trait_controllable_risk
+    }
+    random_weight = {
+        base = 0
+    }
+
+    description = "origin_tooltip_xeno_special_2"
+    advanced_start = no
 }
 
 origin_xeno_special_1 = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
-	picture = GFX_evt_relic_shipyard
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
+    picture = GFX_evt_relic_shipyard
 
-	starting_colony = pc_savannah
-	
-	potential = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-	}
+    starting_colony = pc_savannah
 
-	possible = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-		
-	}
+    possible = {
+        authority = {
+            value = auth_hive_mind
+        }
+        ethics = { value = ethic_gestalt_consciousness }
+        species = { value = XENO }
 
-	traits = {
-		trait = trait_accidental_variation
-	}
-	random_weight = {
-		base = 0
-	}
+    }
 
-	description = "origin_tooltip_xeno_special_1"
-	advanced_start = no
+    traits = {
+        trait = trait_accidental_variation
+    }
+    random_weight = {
+        base = 0
+    }
+
+    description = "origin_tooltip_xeno_special_1"
+    advanced_start = no
 }
 
 
 origin_xeno_experiments = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origin_xeno_experiments.dds"
-	picture = GFX_evt_derelict_interior
-	
-	starting_colony = pc_relic 
-	
-	potential = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-	}
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_xeno_experiments.dds"
+    picture = GFX_evt_derelict_interior
 
-	possible = {
-		authority = { 
-			value = auth_hive_mind 
-		} 
-		ethics = { value = ethic_gestalt_consciousness }
-		
-	}
+    starting_colony = pc_relic
 
-	traits = {
-		trait = trait_genetically_manipulated
-	}
-	random_weight = {
-		base = 0
-	}
+    possible = {
+        authority = {
+            value = auth_hive_mind
+        }
+        ethics = { value = ethic_gestalt_consciousness }
+        species = { value = XENO }
 
-	description = "origin_tooltip_xeno_experiments"
-	advanced_start = no
+    }
+
+    traits = {
+        trait = trait_genetically_manipulated
+    }
+    random_weight = {
+        base = 0
+    }
+
+    description = "origin_tooltip_xeno_experiments"
+    advanced_start = no
 }
