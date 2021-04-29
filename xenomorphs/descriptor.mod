@@ -6,5 +6,5 @@ tags={
 	"Leaders"
 }
 name="Xenomorph Species"
-supported_version="2.8.*"
+supported_version="3.0.*"
 remote_file_id="2275819376"

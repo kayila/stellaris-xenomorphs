@@ -28,7 +28,7 @@
 	initializer=""
 	graphical_culture="molluscoid_01"
 	city_graphical_culture="fungoid_01"
-	
+
 	empire_flag={
 		icon={
 			category="xeno"
@@ -142,9 +142,9 @@
 	species={
 		class="XENO"
 		portrait="xenomorph_red_drone"
-		name="Deacon Xenomorph"
-		plural="Deacons"
-		adjective="Deacon"
+		name="Rebel Xenomorph"
+		plural="Rebel Xenomorphs"
+		adjective="Rebel Xenomorph"
 		name_list="XENO1"
 		trait="trait_xenomorph"
 		trait="trait_hive_mind"
@@ -210,9 +210,9 @@
 	species={
 		class="XENO"
 		portrait="xenomorph_green_drone"
-		name="Deacon Xenomorph"
-		plural="Deacons"
-		adjective="Deacon"
+		name="K-Xenomorph"
+		plural="K-Xenomorphs"
+		adjective="K-Xenomorph"
 		name_list="XENO1"
 		trait="trait_xenomorph"
 		trait="trait_hive_mind"
