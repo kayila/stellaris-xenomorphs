@@ -1,0 +1,59 @@
+xenomorph = {
+  enforces_borders = yes
+  has_difficulty_bonuses = yes
+  counts_for_victory = no
+  pop_growth = yes
+  playable = no
+  randomize_ethos = no
+  shuffle_pop_ethos = no
+  diplomatic_wars = no
+  government = no
+  has_complete_sensor = yes
+  needs_survey = no
+  relations = no
+  minimalist_contacts_list_profile = no
+  show_in_contacts_list = yes
+  share_communications = no
+  home_system = xenomorph_homeworld_target_1
+  observable = yes
+
+  ai = {
+    enabled = yes
+    colonizer = no
+    internal_policies = no
+    government = no
+    traditions = no
+    construction = no
+    modules = {
+      swarm_interior_minister_module
+      swarm_military_minister_module
+    }
+
+    army_data = {
+      xeno_hive_army = {
+        fraction = {
+          factor = 1000
+        }
+      }
+    }
+  }
+  modules = {
+    standard_event_module = {}
+    standard_leader_module = {}
+    all_technology_module = {}
+    exclusive_diplomacy_module = {
+      contact_rule = always
+    }
+  }
+
+  faction = {                   # these values are copied to the country and can be changed during the game
+    neutral = no                # if yes, fleets will never attack anything and will never be attacked
+    hostile = yes               # if yes, fleets will attack everything on sight ( except neutral fleets )
+    auto_delete = no            # if yes, country will be automatically be deleted when considered dead ( usually when out of colonies and colony ships ). Should be yes in most cases but can be useful to turn off for some countries that are created by events.
+    needs_border_access = no    # decides if a country needs to have explicit border access from another country to enter its borders.
+    generate_borders = no       # decides if a country generates borders or not
+    needs_colony = no           # decides if a country needs a colony ( or a colony ship ) to be considered alive.
+    primitive = yes             # primitive countries can have observation stations build by others in orbit of their planets
+    hostile_when_attacked = yes # toggles if country turns hostile against attacker.
+  }
+}

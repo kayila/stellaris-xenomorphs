@@ -1,5 +1,4 @@
-"Xenomorph Hive"
-={
+"Xenomorph Hive" = {
 	key="Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={
@@ -66,8 +65,8 @@
 	}
 	origin="origin_xeno_hive"
 }
-"Deacon Xenomorph Swarm"
-={
+
+"Deacon Xenomorph Swarm" = {
 	key="Deacon Xenomorph Swarm"
 	ship_prefix="Parasite"
 	species={
@@ -135,8 +134,8 @@
 	}
 	origin="origin_xeno_special_1"
 }
-"Rebel Xenomorph Hive"
-={
+
+"Rebel Xenomorph Hive" = {
 	key="Rebel Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={
@@ -203,8 +202,8 @@
 	}
 	origin="origin_xeno_rebels"
 }
-"K-Xenomorph Hive"
-={
+
+"K-Xenomorph Hive" = {
 	key="K-Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={

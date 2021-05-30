@@ -1,0 +1,119 @@
+trait_xenomorph = {
+    cost = 0
+    opposites = {
+    }
+    allowed_archetypes = { XENO }
+    initial = yes
+    randomized = no
+    modification = no
+    icon = "gfx/interface/icons/traits/trait_xenomorph.dds"
+
+    leader_age_min = 1
+
+    modifier = {
+    pc_nuked_habitability = 1
+    leader_age = 30
+    pop_environment_tolerance = 0.5
+    pop_growth_speed = 0.2
+    planet_jobs_unity_produces_mult = 0.1
+    }
+    slave_cost = {
+        energy = 275
+    }
+}
+
+
+trait_accidental_variation = {
+    cost = 1
+    opposites = {
+    trait_controllable_risk
+    trait_genetically_manipulated
+    trait_rebellious_xenomorphs
+    }
+    allowed_archetypes = { XENO }
+    initial = yes
+    randomized = yes
+    modification = no
+    icon = "gfx/interface/icons/traits/trait_accidental_variation.dds"
+    modifier = {
+    army_attack_damage_mult = 0.25
+    army_health = 0.1
+    species_leader_exp_gain = -0.1
+    }
+    slave_cost = {
+        energy = 275
+    }
+}
+
+trait_controllable_risk = {
+    cost = 1
+    opposites = {
+    trait_accidental_variation
+    trait_rebellious_xenomorphs
+    }
+    allowed_archetypes = { XENO }
+    initial = no
+    randomized = no
+    modification = yes
+    icon = "gfx/interface/icons/traits/trait_controllable_risk.dds"
+    modifier = {
+    leader_skill_levels = 1
+    species_leader_exp_gain = 0.25
+    army_attack_damage_mult = -0.5
+    army_defense_morale_mult = -0.15
+    army_health = -0.25
+    pop_resettlement_cost_mult = -0.5
+    species_empire_size_mult = -0.10
+    planet_jobs_food_produces_mult = 0.25
+    planet_jobs_society_research_produces_mult = 0.1
+    }
+    slave_cost = {
+        energy = 275
+    }
+}
+
+trait_genetically_manipulated = {
+    cost = 1
+    opposites = {
+    trait_accidental_variation
+    trait_rebellious_xenomorphs
+    }
+    allowed_archetypes = { XENO }
+    initial = yes
+    randomized = no
+    modification = yes
+    icon = "gfx/interface/icons/traits/trait_genetically_manipulated.dds"
+    modifier = {
+    planet_jobs_society_research_produces_mult = 0.1
+    pop_growth_speed = -0.45
+    army_damage_mult = 0.1
+    army_defense_damage_mult = 0.1
+    }
+    slave_cost = {
+        energy = 275
+    }
+}
+
+trait_rebellious_xenomorphs = {
+    cost = 1
+    opposites = {
+    trait_genetically_manipulated
+    }
+    allowed_archetypes = { XENO }
+    initial = no
+    randomized = no
+    modification = no
+    icon = "gfx/interface/icons/traits/trait_rebellious_xenomorphs.dds"
+    modifier = {
+    pop_growth_speed = 0.25
+    army_defense_damage_mult = 0.2
+    planet_jobs_society_research_produces_mult = 0.1
+    species_leader_exp_gain = -0.35
+    species_empire_size_mult = 0.10
+    }
+    slave_cost = {
+        energy = 275
+    }
+}
+
+################################################

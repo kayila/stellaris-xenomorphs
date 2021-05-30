@@ -4,6 +4,10 @@ origin_xeno_hive = {
     picture = GFX_evt_alien_planet
 
     starting_colony = pc_hive
+    habitability_preference = pc_hive
+    preferred_planet_class_neighbor = no
+
+    modification = no
 
     possible = {
         authority = {
@@ -17,12 +21,12 @@ origin_xeno_hive = {
     traits = {
         trait = trait_xenomorph
     }
+
     random_weight = {
         base = 0
     }
 
     description = "origin_tooltip_xeno_hive"
-    advanced_start = no
 }
 
 origin_xeno_rebels = {
@@ -31,6 +35,10 @@ origin_xeno_rebels = {
     picture = GFX_origin_fratricide
 
     starting_colony = pc_nuked
+    habitability_preference = pc_nuked
+    preferred_planet_class_neighbor = no
+
+    modification = no
 
     possible = {
         authority = {
@@ -50,13 +58,14 @@ origin_xeno_rebels = {
     }
 
     description = "origin_tooltip_xeno_rebels"
-    advanced_start = no
 }
 
 origin_xeno_special_2 = {
     is_origin = yes
     icon = "gfx/interface/icons/origins/origin_xeno_hive.dds"
     picture = GFX_origin_overtuned
+
+    modification = no
 
     possible = {
         authority = {
@@ -85,6 +94,8 @@ origin_xeno_special_1 = {
 
     starting_colony = pc_savannah
 
+    modification = no
+
     possible = {
         authority = {
             value = auth_hive_mind
@@ -102,7 +113,6 @@ origin_xeno_special_1 = {
     }
 
     description = "origin_tooltip_xeno_special_1"
-    advanced_start = no
 }
 
 
@@ -112,6 +122,8 @@ origin_xeno_experiments = {
     picture = GFX_evt_derelict_interior
 
     starting_colony = pc_relic
+
+    modification = no
 
     possible = {
         authority = {
@@ -130,5 +142,4 @@ origin_xeno_experiments = {
     }
 
     description = "origin_tooltip_xeno_experiments"
-    advanced_start = no
 }
