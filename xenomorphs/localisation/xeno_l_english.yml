@@ -18,6 +18,8 @@ XENO:0 "Xenomorph"
  XENO_sound_03:0 "hissing"
  XENO_sound_04:0 "howling"
  XENO_sound_05:0 "screeching"
+ XENO_mouth:0 "maw"
+ XENO_organ:0 "killing tongue"
  
  name_list_XENO1:0 "Xenomorph"
  FLAG_CATEGORY_xeno:0 "Xenomorph"

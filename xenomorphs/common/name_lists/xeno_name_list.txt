@@ -95,19 +95,11 @@
             sequential_name = "%O% Mech Brood"
         }
 
-        android_army = {
-            sequential_name = "%O% Android Brood"
-        }
-
         psionic_army = {
             sequential_name = "%O% Mind Brood"
         }
 
         xenomorph_army = {
-            sequential_name = "%O% Xenomorph Brood"
-        }
-
-        xenomorph_brood = {
             sequential_name = "%O% Xenomorph Brood"
         }
 

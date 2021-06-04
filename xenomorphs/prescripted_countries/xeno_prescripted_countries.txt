@@ -1,5 +1,4 @@
 "Xenomorph Hive" = {
-	key="Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={
 		class="XENO"
@@ -67,7 +66,6 @@
 }
 
 "Deacon Xenomorph Swarm" = {
-	key="Deacon Xenomorph Swarm"
 	ship_prefix="Parasite"
 	species={
 		class="XENO"
@@ -136,7 +134,6 @@
 }
 
 "Rebel Xenomorph Hive" = {
-	key="Rebel Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={
 		class="XENO"
@@ -204,7 +201,6 @@
 }
 
 "K-Xenomorph Hive" = {
-	key="K-Xenomorph Hive"
 	ship_prefix="Parasite"
 	species={
 		class="XENO"

@@ -28,10 +28,10 @@ xenomorph_hive = {
                infiltrator = no
                robot_exploiter = no
                robot_liberator = no
-               migrator = no
                propagator = yes
                multispecies = no
                crisis_fighter = no
+               attack_neutrals = yes
         }
         allow = {
                has_country_flag = is_xenomorph

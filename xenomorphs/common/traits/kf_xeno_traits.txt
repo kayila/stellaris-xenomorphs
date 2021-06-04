@@ -1,7 +1,5 @@
 trait_xenomorph = {
     cost = 0
-    opposites = {
-    }
     allowed_archetypes = { XENO }
     initial = yes
     randomized = no
@@ -97,7 +95,7 @@ trait_genetically_manipulated = {
 trait_rebellious_xenomorphs = {
     cost = 1
     opposites = {
-    trait_genetically_manipulated
+        trait_genetically_manipulated
     }
     allowed_archetypes = { XENO }
     initial = no
@@ -105,11 +103,11 @@ trait_rebellious_xenomorphs = {
     modification = no
     icon = "gfx/interface/icons/traits/trait_rebellious_xenomorphs.dds"
     modifier = {
-    pop_growth_speed = 0.25
-    army_defense_damage_mult = 0.2
-    planet_jobs_society_research_produces_mult = 0.1
-    species_leader_exp_gain = -0.35
-    species_empire_size_mult = 0.10
+        pop_growth_speed = 0.25
+        army_defense_damage_mult = 0.2
+        planet_jobs_society_research_produces_mult = 0.1
+        species_leader_exp_gain = -0.35
+        species_empire_size_mult = 0.10
     }
     slave_cost = {
         energy = 275
