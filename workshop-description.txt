@@ -6,7 +6,7 @@ Updated so that the Xenomorphs are able to benefit from the trait point research
 [h1]This mod contains:[/h1]
 -Almost 10 variations of xenomorphs.
 
--Xenomorph themed flag icon.
+-2 Xenomorph themed flag icon.
 
 -Custom names for ships and planets for the species.
 
