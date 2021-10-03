@@ -12,8 +12,7 @@ origin_xeno_hive = {
             value = auth_hive_mind
         }
         ethics = { value = ethic_gestalt_consciousness }
-        species = { value = XENO }
-
+		species_class = { value = XENO }
     }
 
     traits = {
@@ -41,8 +40,7 @@ origin_xeno_rebels = {
             value = auth_hive_mind
         }
         ethics = { value = ethic_gestalt_consciousness }
-        species = { value = XENO }
-
+		species_class = { value = XENO }
     }
 
     traits = {
@@ -66,8 +64,7 @@ origin_xeno_special_2 = {
             value = auth_hive_mind
         }
         ethics = { value = ethic_gestalt_consciousness }
-        species = { value = XENO }
-
+		species_class = { value = XENO }
     }
 
     traits = {
@@ -93,8 +90,7 @@ origin_xeno_special_1 = {
             value = auth_hive_mind
         }
         ethics = { value = ethic_gestalt_consciousness }
-        species = { value = XENO }
-
+		species_class = { value = XENO }
     }
 
     traits = {
@@ -120,8 +116,7 @@ origin_xeno_experiments = {
             value = auth_hive_mind
         }
         ethics = { value = ethic_gestalt_consciousness }
-        species = { value = XENO }
-
+		species_class = { value = XENO }
     }
 
     traits = {

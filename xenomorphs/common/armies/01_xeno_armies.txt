@@ -11,7 +11,7 @@ xeno_hive_army = {
 	health = 2.1
 	has_morale = no
 	time = 100
-	icon_frame = 8
+	icon = GFX_text_8
 	has_species = NO
 
 	resources = {

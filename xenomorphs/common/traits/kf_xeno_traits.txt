@@ -1,6 +1,6 @@
 trait_xenomorph = {
     cost = 0
-    allowed_archetypes = { XENO }
+    allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = no
     modification = no
@@ -28,7 +28,7 @@ trait_accidental_variation = {
     trait_genetically_manipulated
     trait_rebellious_xenomorphs
     }
-    allowed_archetypes = { XENO }
+    allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = yes
     modification = no
@@ -49,7 +49,7 @@ trait_controllable_risk = {
     trait_accidental_variation
     trait_rebellious_xenomorphs
     }
-    allowed_archetypes = { XENO }
+    allowed_archetypes = { BIOLOGICAL }
     initial = no
     randomized = no
     modification = yes
@@ -76,7 +76,7 @@ trait_genetically_manipulated = {
     trait_accidental_variation
     trait_rebellious_xenomorphs
     }
-    allowed_archetypes = { XENO }
+    allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = no
     modification = yes
@@ -97,7 +97,7 @@ trait_rebellious_xenomorphs = {
     opposites = {
         trait_genetically_manipulated
     }
-    allowed_archetypes = { XENO }
+    allowed_archetypes = { BIOLOGICAL }
     initial = no
     randomized = no
     modification = no
