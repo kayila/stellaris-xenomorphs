@@ -29,6 +29,10 @@ XENO:0 "Xenomorph"
  XENO_hand_plural:0 "claws"
  XENO_tooth:0 "fang"
  XENO_tooth_plural:0 "fangs"
+ XENO_fossil:0 "fossil"
+ XENO_fossil_plural:0 "fossils"
+ XENO_remnant:0 "skeleton"
+ XENO_remnant_plural:0 "skeletons"
  
  name_list_XENO1:0 "Xenomorph"
  FLAG_CATEGORY_xeno:0 "Xenomorph"
@@ -101,3 +105,18 @@ xeno_hive_army_desc: "Ravenous hordes of horrors made up of little more than tee
 xenomorph_brood:0 "Xenomorph Army"
 xenomorph_brood_plural:0 "Xenomorph Armies"
 xenomorph_brood_desc:0 "Ravenous hordes of horrors made up of little more than teeth, claws and an instinctive urge to kill."
+
+###################################################
+#   Primitives
+###################################################
+primitive_xenomorph.1.name:0 "Feral Xenomorphs"
+primitive_xenomorph.1.desc:0 "There are feral xenomorphs living on this planet. They seem to have adapted to the local environment."
+primitive_xenomorph.1.a:0 "We should be wary"
+
+primitive_xenomorph.2.name:0 "Wild Xenomorphs"
+primitive_xenomorph.2.desc:0 "There are wild xenomorphs living on this planet. They seem more docile than other observed specimen."
+primitive_xenomorph.2.a:0 "We should be wary"
+
+primitive_xenomorph.3.name:0 "Uncontrolled Xenomorphs"
+primitive_xenomorph.3.desc:0 "There are uncontrolled xenomorphs living on this planet. They seem to have not yet developed into a space faring society."
+primitive_xenomorph.3.a:0 "We should be wary"

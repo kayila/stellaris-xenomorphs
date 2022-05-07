@@ -3,8 +3,19 @@ trait_xenomorph = {
     allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = no
-    modification = no
     icon = "gfx/interface/icons/traits/trait_xenomorph.dds"
+
+	species_potential_add = {
+		always = no
+	}
+
+	species_possible_add = {
+		always = no
+	}
+
+	species_possible_remove = {
+		always = no
+	}
 
     leader_age_min = 1
 
@@ -31,12 +42,24 @@ trait_accidental_variation = {
     allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = yes
-    modification = no
     icon = "gfx/interface/icons/traits/trait_accidental_variation.dds"
+
+	species_potential_add = {
+		always = no
+	}
+
+	species_possible_add = {
+		always = no
+	}
+
+	species_possible_remove = {
+		always = no
+	}
+
     modifier = {
-    army_attack_damage_mult = 0.25
-    army_health = 0.1
-    species_leader_exp_gain = -0.1
+    	army_attack_damage_mult = 0.25
+    	army_health = 0.1
+    	species_leader_exp_gain = -0.1
     }
     slave_cost = {
         energy = 275
@@ -52,19 +75,31 @@ trait_controllable_risk = {
     allowed_archetypes = { BIOLOGICAL }
     initial = no
     randomized = no
-    modification = yes
     icon = "gfx/interface/icons/traits/trait_controllable_risk.dds"
     modifier = {
-    leader_skill_levels = 1
-    species_leader_exp_gain = 0.25
-    army_attack_damage_mult = -0.5
-    army_defense_morale_mult = -0.15
-    army_health = -0.25
-    pop_resettlement_cost_mult = -0.5
-    species_empire_size_mult = -0.10
-    planet_jobs_food_produces_mult = 0.25
-    planet_jobs_society_research_produces_mult = 0.1
+    	leader_skill_levels = 1
+    	species_leader_exp_gain = 0.25
+    	army_attack_damage_mult = -0.5
+    	army_defense_morale_mult = -0.15
+    	army_health = -0.25
+    	pop_resettlement_cost_mult = -0.5
+    	species_empire_size_mult = -0.10
+    	planet_jobs_food_produces_mult = 0.25
+    	planet_jobs_society_research_produces_mult = 0.1
     }
+
+	species_potential_add = {
+		always = no
+	}
+
+	species_possible_add = {
+		always = no
+	}
+
+	species_possible_remove = {
+		always = no
+	}
+
     slave_cost = {
         energy = 275
     }
@@ -79,13 +114,25 @@ trait_genetically_manipulated = {
     allowed_archetypes = { BIOLOGICAL }
     initial = yes
     randomized = no
-    modification = yes
     icon = "gfx/interface/icons/traits/trait_genetically_manipulated.dds"
+
+	species_potential_add = {
+		always = yes
+	}
+
+	species_possible_add = {
+		always = yes
+	}
+
+	species_possible_remove = {
+		always = yes
+	}
+
     modifier = {
-    planet_jobs_society_research_produces_mult = 0.1
-    pop_growth_speed = -0.45
-    army_damage_mult = 0.1
-    army_defense_damage_mult = 0.1
+    	planet_jobs_society_research_produces_mult = 0.1
+    	pop_growth_speed = -0.45
+    	army_damage_mult = 0.1
+    	army_defense_damage_mult = 0.1
     }
     slave_cost = {
         energy = 275
@@ -100,7 +147,6 @@ trait_rebellious_xenomorphs = {
     allowed_archetypes = { BIOLOGICAL }
     initial = no
     randomized = no
-    modification = no
     icon = "gfx/interface/icons/traits/trait_rebellious_xenomorphs.dds"
     modifier = {
         pop_growth_speed = 0.25
@@ -109,6 +155,19 @@ trait_rebellious_xenomorphs = {
         species_leader_exp_gain = -0.35
         species_empire_size_mult = 0.10
     }
+
+	species_potential_add = {
+		always = no
+	}
+
+	species_possible_add = {
+		always = no
+	}
+
+	species_possible_remove = {
+		always = no
+	}
+
     slave_cost = {
         energy = 275
     }
