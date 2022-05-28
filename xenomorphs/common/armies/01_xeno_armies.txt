@@ -3,16 +3,21 @@
 # Morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
 # Building spawned armies can't be built normally, but only created from pops working buildings
 
+# Assault Army
 xeno_hive_army = {
 	damage = 2.1
+	health = 2.1
+	has_morale = no
 	morale_damage = 2.5
 	collateral_damage = 10
 	war_exhaustion = 0.25
-	health = 2.1
-	has_morale = no
 	time = 100
 	icon = GFX_text_8
-	has_species = NO
+	has_species = yes
+
+	prerequisites = {
+		"tech_assault_armies"
+	}
 
 	resources = {
 		category = armies

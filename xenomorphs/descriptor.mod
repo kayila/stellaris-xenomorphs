@@ -1,4 +1,4 @@
-version="3.7.0"
+version="3.8.0"
 tags={
 	"Gameplay"
 	"Species"
@@ -6,5 +6,5 @@ tags={
 	"Leaders"
 }
 name="Xenomorph Species"
-supported_version="3.3.*"
+supported_version="3.4.*"
 remote_file_id="2275819376"

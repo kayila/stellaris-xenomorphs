@@ -24,17 +24,10 @@ xenomorph = {
     government = no
     traditions = no
     construction = no
+	espionage = no
     modules = {
       swarm_interior_minister_module
       swarm_military_minister_module
-    }
-
-    army_data = {
-      xeno_hive_army = {
-        fraction = {
-          factor = 1000
-        }
-      }
     }
   }
   modules = {
