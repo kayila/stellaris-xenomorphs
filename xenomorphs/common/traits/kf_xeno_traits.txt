@@ -9,10 +9,6 @@ trait_xenomorph = {
 		always = no
 	}
 
-	species_possible_add = {
-		always = no
-	}
-
 	species_possible_remove = {
 		always = no
 	}
