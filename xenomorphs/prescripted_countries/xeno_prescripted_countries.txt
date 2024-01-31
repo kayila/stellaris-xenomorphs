@@ -48,10 +48,9 @@
 		name="Iauth"
 		portrait="xenomorph_praetorian"
 		texture=0
-		hair=0
 		clothes=0
 		ruler_title_female="Mother Empress"
-		leader_class="ruler"
+		leader_class=official
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -116,10 +115,9 @@
 		name="Zothrileyt"
 		portrait="xenomorph_deacon"
 		texture=0
-		hair=0
 		clothes=0
 		ruler_title_female="Swarm Leader"
-		leader_class="ruler"
+		leader_class=official
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -183,10 +181,9 @@
 		name="Vughr"
 		portrait="xenomorph_red_drone"
 		texture=0
-		hair=0
 		clothes=0
 		ruler_title_female="Rebel Queen"
-		leader_class="ruler"
+		leader_class=official
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -251,10 +248,9 @@
 		name="Mlozid"
 		portrait="xenomorph_green_drone"
 		texture=0
-		hair=0
 		clothes=0
 		ruler_title_female="Queen"
-		leader_class="ruler"
+		leader_class=official
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
