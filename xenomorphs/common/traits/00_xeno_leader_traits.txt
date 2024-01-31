@@ -1,0 +1,14 @@
+leader_trait_xenomorph = {
+    cost = 0
+    randomized = no
+    icon = "gfx/interface/icons/traits/trait_xenomorph.dds"
+    initial = yes
+    starting_ruler_trait = yes
+    immortal_leaders = yes
+	leader_class = all
+    leader_potential_add = {
+        species = {
+            has_trait = trait_xenomorph
+        }
+    }
+}

@@ -20,11 +20,10 @@ trait_xenomorph = {
     leader_age_min = 1
 
     modifier = {
-    pc_nuked_habitability = 1
-    leader_age = 30
-    pop_environment_tolerance = 0.5
-    pop_growth_speed = 0.2
-    planet_jobs_unity_produces_mult = 0.1
+		pc_nuked_habitability = 1
+		pop_environment_tolerance = 0.5
+		pop_growth_speed = 0.2
+		planet_jobs_unity_produces_mult = 0.1
     }
     slave_cost = {
         energy = 275
