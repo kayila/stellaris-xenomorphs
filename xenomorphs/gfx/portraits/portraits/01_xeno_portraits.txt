@@ -12,69 +12,69 @@ portraits = {
 	
 	# Xeno	
 	xenomorph_praetorian	= {
-		entity = "xeno_praetorian_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_praetorian_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_praetorian_portrait.dds"
 		}
 	}
 	# Drones
 	xenomorph_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_portrait.dds"
 		}
 	}
 	xenomorph_blue_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_blue_portrait.dds"
 		}
 	}
 	xenomorph_cyan_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_cyan_portrait.dds"
 		}
 	}
 	xenomorph_pur_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_pur_portrait.dds"
 		}
 	}
 	xenomorph_red_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_red_portrait.dds"
 		}
 	}
 	xenomorph_yellow_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_yellow_portrait.dds"
 		}
 	}
 	xenomorph_green_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_green_portrait.dds"
 		}
 	}
 	xenomorph_deacon= {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_white_portrait.dds"
 		}
 	}
 	xenomorph_gold_drone = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_gold_portrait.dds"
 		}
 	}
 	# Extras
 	xenomorph_spitter = {
-		entity = "xeno_portrait_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		entity = "xeno_portrait_entity" clothes_selector = "no_texture" greeting_sound = "plantoid_greetings" attachment_selector = "no_texture"
 		character_textures = {
 			"gfx/models/portraits/xeno/xenomorph_spitter_portrait.dds"
 			"gfx/models/portraits/xeno/xenomorph_spitter_2_portrait.dds"
@@ -106,8 +106,8 @@ portrait_groups = {
 
 		}		
 		
-		#species scope
-		species = { #generic portrait for a species
+		# species scope
+		species = { # Generic portrait for a species
 			add = {
 				portraits = {
 					xenomorph_drone 
@@ -115,8 +115,8 @@ portrait_groups = {
 			}
 		}		
 		
-		#pop scope
-		pop = { #for a specific pop
+		# pop scope
+		pop = { # General population
 			add = {
 				portraits = {
 					xenomorph_drone
@@ -124,14 +124,11 @@ portrait_groups = {
 			}
 		}
 		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
+		# leader scope
+		leader = { # Non-ruler leaders
 			add = {
 				trigger = {
 					gender = female
-					NOT = { leader_class = scientist }
-					NOT = { leader_class = general }
-					NOT = { leader_class = admiral }
 				}
 				portraits = {
 					xenomorph_praetorian
@@ -139,82 +136,10 @@ portrait_groups = {
 			}
 			add = {
 				trigger = {
-					gender = male
-					NOT = { leader_class = scientist }
-					NOT = { leader_class = general }
-					NOT = { leader_class = admiral }
-				}
-				portraits = {
-					xenomorph_drone
-				}
-			}
-			add = {
-				trigger = {
-					gender = female
-					leader_class = scientist
-				}
-				portraits = {
-					xenomorph_praetorian
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-					leader_class = scientist
-				}
-				portraits = {
-					xenomorph_drone
-				}
-			}
-			add = {
-				trigger = {
-					gender = female
-					leader_class = general
-				}
-				portraits = {
-					xenomorph_praetorian
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-					leader_class = general
-				}
-				portraits = {
-					xenomorph_drone
-				}
-			}
-			add = {
-				trigger = {
-					gender = female
-					leader_class = admiral
-				}
-				portraits = {
-					xenomorph_praetorian
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-					leader_class = admiral
-				}
-				portraits = {
-					xenomorph_drone
-				}
-			}
-			add = {
-				trigger = {
-					gender = female
-					leader_class = governor
-				}
-				portraits = {
-					xenomorph_praetorian
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-					leader_class = governor
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					xenomorph_drone
@@ -223,7 +148,7 @@ portrait_groups = {
 		}
 
 			
-		#leader scope 
+		# ruler scope 
 		ruler = {
 			add = {
 				trigger = {
@@ -235,7 +160,10 @@ portrait_groups = {
 			}
 			add = {
 				trigger = {
-					gender = male
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					xenomorph_drone
